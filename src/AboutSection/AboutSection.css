@@ -1,0 +1,25 @@
+.about_section{
+    text-align: center;
+    border-radius: 0.5rem ;
+    margin: 0 auto;
+    border: solid black 0.5px;
+    margin-top: 1rem;
+    width: 80%;
+    font-size: 1rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3)
+}
+.about_section>div{
+    padding: 0 2rem;
+}
+/* **************************this is for laptops with a minimum of 1000px********************************************* */
+@media only screen and (min-width:1000px){
+    .about_section{
+       font-size: 1.3rem ;
+    }
+}
+/* **************************this is for laptops with a minimum of 1925px********************************************* */
+@media only screen and (min-width:1925px){
+    .about_section{
+       font-size: 1.5rem ;
+    }
+}
