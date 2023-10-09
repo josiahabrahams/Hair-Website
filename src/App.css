@@ -6,8 +6,9 @@ body{
 }
 header{
   padding: 2rem;
-  background: rgba(255, 192, 203, 1) url(images/mobile-image.jpg);
-  color: white;
+  background: rgba(255, 192, 203, 1) url(images/640px-image.jpg);
+  color: black;
+  padding-top: 8rem;
 }
 h1{
   font-size: 2rem;
@@ -36,15 +37,15 @@ footer{
     display: flex;
     align-items:center ;
     justify-content: space-between;
-    background: rgba(255, 192, 203, 1) url(./images/wepik-export-202309281058396j9l.png); 
+    background: rgba(255, 192, 203, 1) url(./images/1000pixel-image.jpeg); 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 15rem;
   }
   h1{
-    color: white;
+    color: black;
     margin: 7.5rem 0 7rem 0;
-    font-size: 4rem;
+    font-size: 3rem;
   }
   header>div{
     margin: 8.5rem 0 6.5rem 0;
@@ -64,7 +65,7 @@ footer{
     display: flex;
     align-items:center ;
     justify-content: space-between;
-    background: rgba(255, 192, 203, 1) url(./images/tessa-wilson-xkYJqEno62c-unsplash.jpg); 
+    background: rgba(255, 192, 203, 1) url(./images/1920px-img.jpg); 
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 30rem;

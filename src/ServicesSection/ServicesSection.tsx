@@ -2,7 +2,10 @@ import './ServicesSection.css'
 
 export const ServicesSection = () =>{
   return(
-    <div className='service_section'>
+    
+    <div className='service_section' id='services'>
+      <h2 >Services</h2>
+      
             sid est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
          epiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
@@ -10,7 +13,7 @@ export const ServicesSection = () =>{
          cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
          id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
          epiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-          
+      
     </div>
   )
 }
