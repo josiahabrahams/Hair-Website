@@ -43,8 +43,6 @@ footer{
   }
   h1{
     color: white;
-    position: sticky;
-    top: 0;
     margin: 7.5rem 0 7rem 0;
     font-size: 4rem;
   }
@@ -73,8 +71,6 @@ footer{
   }
   h1{
     padding: 2rem;
-    position: sticky;
-    top: 0;
     margin: 0 0 20rem 0;
     font-size: 4rem;
   }
@@ -103,8 +99,7 @@ footer{
     padding-bottom: 40rem;
   }
   h1{
-    position: sticky;
-    top: 0;
+   
     margin: 20rem 0 10rem 0;
     font-size: 8rem;
   }
