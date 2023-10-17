@@ -32,15 +32,16 @@ export const ServicesSection = () =>{
             making them a favorite choice for those seeking stylish and resilient nail
             enhancements.
 </p>}
+       
+        <div className='service_flashcard2' onClick={showGelPTag}>
+          <h3>Gels</h3>
+          <p>Price: R150</p>
+        </div> 
         {isGelSelected && 
         <p className='gel_p'> 
        My gels are strong, flexible, and provide a glossy finish with a natural appearance.
        I also offer a wide range of color and design options.
         </p>}
-        <div className='service_flashcard2' onClick={showGelPTag}>
-          <h3>Gels</h3>
-          <p>Price: R150</p>
-        </div>
         </div>
     </div>
   )
