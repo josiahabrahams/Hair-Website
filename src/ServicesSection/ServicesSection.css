@@ -4,7 +4,91 @@
     margin: 0 auto;
     border: solid black 0.5px;
     margin-top: 20rem;
-    width: 80%;
+    width: 90%;
     font-size: 1rem;
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.3)
+    
+}
+.holder{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    flex-direction: column;
+    
+}
+
+.acly_p{
+    font-size: 1rem;
+    border: solid black 0.05rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color:rgba(255, 105, 180, 1.0) ;
+    color: white;
+}
+.gel_p{
+    font-size: 1rem;
+    border: solid black 0.05rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 205, 193, 1.0);
+    color: white;
+}
+.service_flashcard1{
+    border-radius: 0.25rem;
+    border: black solid 0.05rem;
+    cursor: pointer;
+    padding: 2rem;
+    
+}
+.service_flashcard2{
+    border-radius: 0.25rem;
+    border: black solid 0.05rem;
+    padding: 2rem;
+    cursor: pointer;
+}
+.service_flashcard1:hover{
+    color: white;
+    background-color: rgba(244, 194, 194, 1.0);
+}
+.service_flashcard2:hover{
+    color: white;
+    background-color: rgba(173, 216, 230, 1.0);
+}
+/* ***********************tablets 768px */
+@media only screen and (min-width:768px){
+    .holder{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+    }
+    .service_flashcard1{
+        border-radius: 0.25rem;
+        border: black solid 0.05rem;
+        padding: 7rem;
+    
+    }
+    .service_flashcard2{
+        border-radius: 0.25rem;
+        border: black solid 0.05rem;
+        padding: 7rem 8rem 8rem 7rem;
+    
+    }
+}
+/* *****************************1024px laptops ***************** */
+@media only screen and (min-width:1024px){
+    .holder{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        flex-direction: column;
+    }
+}
+/* *****************************1920px laptops ***************** */
+@media only screen and (min-width:1440px){
+    .holder{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        
+    }
 }

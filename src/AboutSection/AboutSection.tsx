@@ -1,23 +1,30 @@
 import './AboutSection.css'
+import refOne from '../images/referenceOne.jpg';
+import refTwo from '../images/referenceTwo.jpg';
+import refThree from '../images/referenceThree.jpg';
+import refFour from '../images/referenceFour.jpg';
 /** about section the tells the reader about the business and its identity */
 export const AboutSection  = () => {
     return (
      <div className='about_section'>
          <h2 id='about'>About</h2>
-         <div>
-          <p>
-          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-           voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati 
-           cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-           id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-           epiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-           voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati 
-           cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-           id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
-           epiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, 
-           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium 
-          </p>
+        
+          
+          Welcome to  GlambyPetronella, where beauty meets precision! I specialize in the art of nail 
+      enhancement, offering a range of stunning options, including luxurious gel nails and 
+      resilient acrylic nails. i Am  dedicated to delivering 
+      the perfect, customized nail designs you've always dreamed of. I
+      believe that every detail counts, and I take pride in creating nails
+       that are not only strong and long-lasting but also exquisitely beautiful.
+          
+         
+         <div className='grid'>
+            
+            <div className='grid-item'><img src={refOne}/></div>
+            <div className='grid-item'><img src={refTwo} /></div> 
+            <div className='grid-item'><img src={refThree}/></div>
+            <div className='grid-item'><img src={refFour}/></div>
+            
          </div>
      </div>
     )
