@@ -6,10 +6,7 @@ export const ContactUsSection = () => {
          <h2>Contact me</h2>
          To find out more about GlambyPetronella, please check out my <a href='https://www.facebook.com/profile.php?id=100092156778151'>Facebook</a> page. 
          To preorder, simply fill out the form below.
-        <div className="contact_container">
-           <p>Phone: +27 455 7775</p>
-           <p>Facebook</p>
-        </div>
+        
         
         <div className="pre_order_form">
         
