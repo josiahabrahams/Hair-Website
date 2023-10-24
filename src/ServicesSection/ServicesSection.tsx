@@ -7,19 +7,23 @@ export const ServicesSection = () =>{
   const showGelPTag = () =>{
     setIsAcrylicSelected(false)
     setIsGelSelected(true)
+    setTimeout(()=>setIsGelSelected(false),15000)
   }
   const showAcrylPTag = () =>{
     setIsAcrylicSelected(true)
     setIsGelSelected(false)
+    setTimeout(()=>setIsAcrylicSelected(false),15000)
   }
   return(
     
     <div className='service_section' id='services'>
       <h2>Services</h2>
-      My salon offers two services gel nails and acrylic nails.
-      my Gel Nail service is perfect for those who seek a long-lasting and elegant manicure
-      and If you desire strength and flexibility in your nail enhancements,
-       my Acrylic Nails are an ideal choice.
+     <p className='pad_p_tag'> 
+       My salon offers two services gel nails and acrylic nails.
+       my Gel Nail service is perfect for those who seek a long-lasting and elegant manicure
+       and If you desire strength and flexibility in your nail enhancements,
+       my Acrylic Nails are an ideal choice. 
+      </p>
 
         <div className='holder'> 
         <div className='service_flashcard1' onClick={showAcrylPTag}>
@@ -35,7 +39,7 @@ export const ServicesSection = () =>{
        
         <div className='service_flashcard2' onClick={showGelPTag}>
           <h3>Gels</h3>
-          <p>Price: R150</p>
+          <p>Price: R100</p>
         </div> 
         {isGelSelected && 
         <p className='gel_p'> 

@@ -13,9 +13,9 @@ export const  App = () => {
        <header id='head'>
          <h1>GlambyPetronella</h1>
          <div>
-           <Button size='medium'style= {{color: 'black'}}><a href="#about" style={{color: 'black', textDecoration:'none'}}>About</a></Button>
-           <Button size='medium' style={{color: 'black'}}><a href="#services" style={{color: 'black', textDecoration:'none'}}>Services</a></Button>
-           <Button size='medium' style={{color: 'black'}}><a href="#contact" style={{color: 'black', textDecoration:'none'}}>Contact Me</a></Button>
+           <Button size='medium'style= {{color: 'rgb(255, 105, 180, 1)'}}><a href="#about" style={{color: 'rgb(255, 105, 180, 1)', textDecoration:'none'}}>About</a></Button>
+           <Button size='medium' style={{color: 'rgb(255, 105, 180, 1)'}}><a href="#services" style={{color: 'rgb(255, 105, 180, 1)', textDecoration:'none'}}>Services</a></Button>
+           <Button size='medium' style={{color: 'rgb(255, 105, 180, 1)'}}><a href="#contact" style={{color: 'rgb(255, 105, 180, 1)', textDecoration:'none'}}>Contact Me</a></Button>
          </div>
        </header>
        <AboutSection/>

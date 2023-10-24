@@ -1,5 +1,5 @@
 .about_section{
-    text-align: center;
+    
     border-radius: 0.5rem ;
     margin: 0 auto;
     border: solid black 0.5px;
@@ -10,8 +10,12 @@
     padding: 2rem;
     
 }
+h2{
+    text-align: center;
+}
 .grid{
     display: grid;
+    padding-top: 5rem;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     grid-template-rows: 1fr 1fr; /* Two equal-height rows */
     gap: 0.5rem;
@@ -26,6 +30,7 @@
     transition: 1s ease;
     width: 6rem;
 }
+
 .grid-item  img:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
@@ -71,6 +76,6 @@
     }
     .grid-item>img{
         transition: 1s ease;
-        width: 15rem;
+        width: 12rem;
     }
 }
