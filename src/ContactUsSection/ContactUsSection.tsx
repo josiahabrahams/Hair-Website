@@ -5,12 +5,12 @@ export const ContactUsSection = () => {
        <div className='contact_section' id='contact'>
          <h2>Contact me</h2>
          To find out more about GlambyPetronella, please check out my <a href='https://www.facebook.com/profile.php?id=100092156778151'>Facebook</a> page. 
-         To preorder, simply fill out the form below.
+         To preorder, simply fill out the form below and visit me at <a href ='https://www.google.com/search?client=avast-a-2&q=1+harmony+road+Vrygrond&oq=1+harmony+road+Vrygrond&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI5OThqMGoxqAIAsAIA&ie=UTF-8'>1 harmony road Vrygrond</a>.
         
         
         <div className="pre_order_form">
         
-        <form action="https://formsubmit.co/jojobrhms@gmail.com" method="POST">
+        <form action="https://formsubmit.co/praisepetronella@gmail.com" method="POST">
          
           
              <input type="text" name="FirstName"   pattern="[A-Za-z ]{3,}" required placeholder="FirstName" title="No numbers are allowed in your name"/>

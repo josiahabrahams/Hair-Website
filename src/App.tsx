@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import {AboutSection} from './AboutSection/AboutSection.tsx'
 import {ContactUsSection} from './ContactUsSection/ContactUsSection.tsx'
 import {ServicesSection} from './ServicesSection/ServicesSection.tsx'
